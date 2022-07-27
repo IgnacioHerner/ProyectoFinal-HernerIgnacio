@@ -1,0 +1,124 @@
+.btn {
+    background: #a9d7f5;
+    background-image: -webkit-linear-gradient(top, #a9d7f5, #6491ad);
+    background-image: -moz-linear-gradient(top, #a9d7f5, #6491ad);
+    background-image: -ms-linear-gradient(top, #a9d7f5, #6491ad);
+    background-image: -o-linear-gradient(top, #a9d7f5, #6491ad);
+    background-image: linear-gradient(to bottom, #a9d7f5, #6491ad);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+.btn_tema{
+  background: #87fe85;
+  background-image: -webkit-linear-gradient(top, #87fe85, #6491ad);
+  background-image: -moz-linear-gradient(top, #87fe85, #6491ad);
+  background-image: -ms-linear-gradient(top, #87fe85, #6491ad);
+  background-image: -o-linear-gradient(top, #87fe85, #6491ad);
+  background-image: linear-gradient(to bottom, #87fe85, #6491ad);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.nav-link{
+  text-decoration: none;
+}
+
+.carrito_compras {
+  background: #a9d7f5;
+  background-image: -webkit-linear-gradient(top, #a9d7f5, #6491ad);
+  background-image: -moz-linear-gradient(top, #a9d7f5, #6491ad);
+  background-image: -ms-linear-gradient(top, #a9d7f5, #6491ad);
+  background-image: -o-linear-gradient(top, #a9d7f5, #6491ad);
+  background-image: linear-gradient(to bottom, #a9d7f5, #6491ad);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn_agregar{
+  background: rgb(230, 70, 70);
+  border-radius: 7px;
+  font-family: Arial;
+  color: white;
+  font-size: 14px;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+}
+
+.btn_borrar {
+  background: white;
+  border-radius: 7px;
+  font-family: Arial;
+  color: black;
+  font-size: 14px;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+}
+
+.card h3{
+  background: #dcb45d;
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 15%;
+}
+
+.card p {
+  background: #a7c563;
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  width: 10%;
+  text-decoration: none;
+}
+
+.card img{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-gap: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+div .card {
+  display: grid;
+  grid-template-columns: repeat(1fr 1fr 1fr);
+}
